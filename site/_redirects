@@ -1,0 +1,69 @@
+# One address only: the Netlify subdomain goes to gazellestudio.ae.
+https://gazellestudio.netlify.app/* https://gazellestudio.ae/:splat 301!
+
+# Old and alternative addresses go to the clean ones.
+/index.html / 301
+/home / 301
+/home.html / 301
+/services.html /services/ 301
+/services/index.html /services/ 301
+/about.html /studio/ 301
+/about /studio/ 301
+/work.html /studio/ 301
+/work /studio/ 301
+/contact.html /contact/ 301
+/contact/index.html /contact/ 301
+/privacy.html /privacy/ 301
+/privacy/index.html /privacy/ 301
+/thank-you.html /thank-you/ 301
+/studio.html /studio/ 301
+/studio/index.html /studio/ 301
+/clients.html /studio/ 301
+/clients/index.html /studio/ 301
+/clients /studio/ 301
+/clients/* /studio/ 301
+/services/gazelle-circle /gazelle-circle/ 301
+/services/gazelle-circle/ /gazelle-circle/ 301
+/services/gazelle-circle.html /gazelle-circle/ 301
+/services/gazelle-circle/index.html /gazelle-circle/ 301
+/gazelle-circle.html /gazelle-circle/ 301
+/gazelle-circle/index.html /gazelle-circle/ 301
+/gazellecircle /gazelle-circle/ 301
+/gazellecircle.html /gazelle-circle/ 301
+/circle /gazelle-circle/ 301
+/loyalty /gazelle-circle/ 301
+/membership /gazelle-circle/ 301
+/services/content-production.html /services/content-production/ 301
+/services/content-production/index.html /services/content-production/ 301
+/services/lead-generation.html /services/lead-generation/ 301
+/services/lead-generation/index.html /services/lead-generation/ 301
+/services/seo.html /services/seo/ 301
+/services/seo/index.html /services/seo/ 301
+/services/social-media.html /services/social-media/ 301
+/services/social-media/index.html /services/social-media/ 301
+/services/strategy.html /services/strategy/ 301
+/services/strategy/index.html /services/strategy/ 301
+/services/web-development.html /services/web-development/ 301
+/services/web-development/index.html /services/web-development/ 301
+
+# Gazelle Circle moved to its own address: https://circle.gazellestudio.ae
+# /gazelle-circle/ itself is a normal page of this website; only the app paths below it are redirected.
+/login https://circle.gazellestudio.ae/login 302
+/register https://circle.gazellestudio.ae/register 302
+/demo https://circle.gazellestudio.ae/demo 302
+/gazelle-circle/login https://circle.gazellestudio.ae/login 301
+/gazelle-circle/register https://circle.gazellestudio.ae/register 301
+/gazelle-circle/demo https://circle.gazellestudio.ae/demo 301
+/gazelle-circle/dashboard https://circle.gazellestudio.ae/dashboard 301
+/gazelle-circle/admin https://circle.gazellestudio.ae/admin 301
+/gazelle-circle/portal https://circle.gazellestudio.ae/portal 301
+/gazelle-circle/pending https://circle.gazellestudio.ae/pending 301
+/gazelle-circle/forgot-password https://circle.gazellestudio.ae/forgot-password 301
+/gazelle-circle/reset-password https://circle.gazellestudio.ae/reset-password 301
+/gazelle-circle/join/* https://circle.gazellestudio.ae/join/:splat 301
+/gazelle-circle/member/* https://circle.gazellestudio.ae/member/:splat 301
+/gazelle-circle/s/* https://circle.gazellestudio.ae/s/:splat 301
+/gazelle-circle/u/* https://circle.gazellestudio.ae/u/:splat 301
+/gazelle-circle/poster/* https://circle.gazellestudio.ae/poster/:splat 301
+/gazelle-circle/auth/* https://circle.gazellestudio.ae/auth/:splat 301
+/gazelle-circle/api/* https://circle.gazellestudio.ae/api/:splat 308
