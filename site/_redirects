@@ -46,24 +46,9 @@ https://gazellestudio.netlify.app/* https://gazellestudio.ae/:splat 301!
 /services/web-development.html /services/web-development/ 301
 /services/web-development/index.html /services/web-development/ 301
 
-# Gazelle Circle moved to its own address: https://circle.gazellestudio.ae
-# /gazelle-circle/ itself is a normal page of this website; only the app paths below it are redirected.
-/login https://circle.gazellestudio.ae/login 302
-/register https://circle.gazellestudio.ae/register 302
-/demo https://circle.gazellestudio.ae/demo 302
-/gazelle-circle/login https://circle.gazellestudio.ae/login 301
-/gazelle-circle/register https://circle.gazellestudio.ae/register 301
-/gazelle-circle/demo https://circle.gazellestudio.ae/demo 301
-/gazelle-circle/dashboard https://circle.gazellestudio.ae/dashboard 301
-/gazelle-circle/admin https://circle.gazellestudio.ae/admin 301
-/gazelle-circle/portal https://circle.gazellestudio.ae/portal 301
-/gazelle-circle/pending https://circle.gazellestudio.ae/pending 301
-/gazelle-circle/forgot-password https://circle.gazellestudio.ae/forgot-password 301
-/gazelle-circle/reset-password https://circle.gazellestudio.ae/reset-password 301
-/gazelle-circle/join/* https://circle.gazellestudio.ae/join/:splat 301
-/gazelle-circle/member/* https://circle.gazellestudio.ae/member/:splat 301
-/gazelle-circle/s/* https://circle.gazellestudio.ae/s/:splat 301
-/gazelle-circle/u/* https://circle.gazellestudio.ae/u/:splat 301
-/gazelle-circle/poster/* https://circle.gazellestudio.ae/poster/:splat 301
-/gazelle-circle/auth/* https://circle.gazellestudio.ae/auth/:splat 301
-/gazelle-circle/api/* https://circle.gazellestudio.ae/api/:splat 308
+# Gazelle Circle lives at gazellestudio.ae/gazelle-circle/. /gazelle-circle/ itself is this website's page (a real file
+# wins over the proxy rule); sign-in, dashboards, member cards and the API are served by the Circle app.
+/login /gazelle-circle/login 302
+/register /gazelle-circle/register 302
+/demo /gazelle-circle/demo 302
+/gazelle-circle/* https://gazelle-circle.netlify.app/gazelle-circle/:splat 200
