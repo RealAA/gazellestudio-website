@@ -1,6 +1,3 @@
-# One address only: the Netlify subdomain goes to gazellestudio.ae.
-https://gazellestudio.netlify.app/* https://gazellestudio.ae/:splat 301!
-
 # Old and alternative addresses go to the clean ones.
 /index.html / 301
 /home / 301
@@ -49,9 +46,7 @@ https://gazellestudio.netlify.app/* https://gazellestudio.ae/:splat 301!
 /services/web-development.html /services/web-development/ 301
 /services/web-development/index.html /services/web-development/ 301
 
-# Gazelle Circle lives at gazellestudio.ae/gazelle-circle/. /gazelle-circle/ itself is this website's page (a real file
-# wins over the proxy rule); sign-in, dashboards, member cards and the API are served by the Circle app.
+# Gazelle Circle lives at gazellestudio.ae/gazelle-circle/; worker.js forwards the app paths below it.
 /login /gazelle-circle/login 302
 /register /gazelle-circle/register 302
 /demo /gazelle-circle/demo 302
-/gazelle-circle/* https://gazelle-circle.netlify.app/gazelle-circle/:splat 200
