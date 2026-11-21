@@ -16,6 +16,9 @@ https://gazellestudio.netlify.app/* https://gazellestudio.ae/:splat 301!
 /privacy.html /privacy/ 301
 /privacy/index.html /privacy/ 301
 /thank-you.html /thank-you/ 301
+/privacy-policy /privacy/ 301
+/terms-and-conditions /terms/ 301
+/cookie-policy /cookies/ 301
 /studio.html /studio/ 301
 /studio/index.html /studio/ 301
 /clients.html /studio/ 301

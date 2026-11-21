@@ -41,10 +41,10 @@
   Content-Type: application/manifest+json
   Cache-Control: public, max-age=86400
 
-/assets/studio.f4104c235f.css
+/assets/studio.c72e227931.css
   Cache-Control: public, max-age=31536000, immutable
 
-/assets/studio.9ad3887a44.js
+/assets/studio.9c53c8ce51.js
   Cache-Control: public, max-age=31536000, immutable
 
 /thank-you/*
